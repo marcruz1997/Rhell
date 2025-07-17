@@ -162,8 +162,9 @@ nmcli con up <connection-name>
 - The data entered in the files was created according to the test environment. Gather all necessary information before filling in the zone files.
 - This local DNS server is ideal for OpenShift labs in closed environments.
 - Use `*.apps.ocp.lab.local` if you haven't yet defined a domain for your application, server, cluster, etc.
-- Check logs with:
 - In this example, DNS configuration was performed for an OpenShift Cluster.
+- Check logs with:
+
 
 ```bash
 journalctl -u named

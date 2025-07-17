@@ -161,8 +161,8 @@ nmcli con up <nome-da-conexao>
 - Os dados inseridos  nos arquivos foram gerados de acordo com o ambiente de testes, reuna todas informações necessárias para o preenchimento dos arquivos de zonas.
 - Este servidor DNS local é ideal para laboratórios OpenShift em ambientes fechados.
 - Use `*.apps.ocp.lab.local` caso ainda não tenha definido um domínio para sua aplicação, servidor, cluster, etc... 
-- Verifique logs com:
 - Neste exemplo foi realizado a configuração de DNS para um Cluster Openshift.
+- Verifique logs com:
 
 ```bash
 journalctl -u named
